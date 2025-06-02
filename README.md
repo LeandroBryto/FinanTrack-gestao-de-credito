@@ -70,8 +70,8 @@ O sistema segue uma arquitetura em camadas baseada nos princípios de Clean Arch
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/leandrodev/credit-application-system.git
-   cd credit-application-system
+     git clone https://github.com/LeandroBryto/FinanTrack-gestao-de-credito.git
+      cd FinanTrack-gestao-de-credito
    ```
 
 2. Execute com Docker Compose:
@@ -84,35 +84,6 @@ O sistema segue uma arquitetura em camadas baseada nos princípios de Clean Arch
    http://localhost:8080/swagger-ui.html
    ```
 
-### Instalação Manual
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/leandrodev/credit-application-system.git
-   cd credit-application-system
-   ```
-
-2. Configure o banco de dados PostgreSQL:
-   ```sql
-   CREATE DATABASE credit_application_system;
-   CREATE USER credit_app WITH ENCRYPTED PASSWORD 'sua_senha_segura';
-   GRANT ALL PRIVILEGES ON DATABASE credit_application_system TO credit_app;
-   ```
-
-3. Configure o Redis e Kafka conforme documentação
-
-4. Ajuste as configurações em `src/main/resources/application.yml`
-
-5. Compile e execute o projeto:
-   ```bash
-   ./mvnw clean package
-   java -jar target/CreditApplicationSystem-0.0.1-SNAPSHOT.jar
-   ```
-
-6. Acesse a aplicação em:
-   ```
-   http://localhost:8080/swagger-ui.html
-   ```
 
 ##  Autenticação e Segurança
 
