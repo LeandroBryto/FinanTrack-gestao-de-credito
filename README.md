@@ -6,14 +6,14 @@
 
 ##  Sobre o Projeto
 
-Este é um sistema completo de aplicação de crédito desenvolvido com Java 21 e Spring Boot 3.2. O projeto implementa uma arquitetura robusta para gerenciamento de solicitações de crédito, avaliação de score, processamento de aprovações e notificações aos clientes.
+Este é um sistema completo de aplicação de crédito desenvolvido com Java 21 e Spring Boot 3.0.1 O projeto implementa uma arquitetura robusta para gerenciamento de solicitações de crédito, avaliação de score, processamento de aprovações e notificações aos clientes.
 
-Desenvolvi este sistema com foco em escalabilidade, segurança e boas práticas de desenvolvimento, utilizando os recursos mais recentes do Java 21 e seguindo os princípios de Clean Architecture e Domain-Driven Design.
+Desenvolvi este sistema com foco em escalabilidade, segurança e boas práticas de desenvolvimento, utilizando os recursos mais recentes do Java 17 e seguindo os princípios de Clean Architecture e Domain-Driven Design.
 
 ##  Tecnologias Utilizadas
 
-- **Java 21**: Aproveitando os recursos mais recentes da linguagem
-- **Spring Boot 3.2**: Framework para desenvolvimento de aplicações Java
+- **Java 17**: Aproveitando os recursos mais recentes da linguagem
+- **Spring Boot 3.0.1**: Framework para desenvolvimento de aplicações Java
 - **Spring Security**: Para autenticação e autorização com JWT
 - **Spring Data JPA**: Para persistência de dados
 - **PostgreSQL**: Banco de dados relacional principal
@@ -59,7 +59,7 @@ O sistema segue uma arquitetura em camadas baseada nos princípios de Clean Arch
 
 ##  Requisitos
 
-- Java 21 ou superior
+- Java 17 ou superior
 - PostgreSQL 12 ou superior
 - Redis 6 ou superior
 - Apache Kafka 3.0 ou superior
@@ -120,14 +120,6 @@ http://localhost:8080/swagger-ui.html
 - **Score de Crédito**: `/api/credit-scores`
 - **Aplicações de Crédito**: `/api/credit-applications`
 
-## 🧪 Testes
-
-O projeto inclui testes unitários e de integração:
-
-```bash
-./mvnw test                 # Executa todos os testes
-./mvnw test -Dtest=ClientServiceTest  # Executa um teste específico
-```
 
 ## 🚢 Implantação
 
@@ -147,23 +139,15 @@ O sistema suporta diferentes perfis de execução:
 - `test`: Para execução de testes
 - `prod`: Para ambiente de produção
 
-```bash
-java -jar target/CreditApplicationSystem-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod
-```
-
 ## 📈 Roadmap
 
 Funcionalidades planejadas para futuras versões:
 
-- [ ] Integração com serviços externos de consulta de crédito
 - [ ] Dashboard administrativo com métricas em tempo real
 - [ ] Suporte a múltiplos idiomas
 - [ ] App mobile para clientes
-- [ ] Análise preditiva para aprovação de crédito
 
-## 👨‍💻 Autor
 
-Desenvolvido por Leandro - [GitHub](https://github.com/leandrodev)
 
 ## 📄 Licença
 
