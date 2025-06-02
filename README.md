@@ -1,7 +1,7 @@
 # Sistema de Aplicação de Crédito
 
-![Java](https://img.shields.io/badge/Java-21-orange)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.0-green)
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0.1-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ##  Sobre o Projeto
