@@ -6,7 +6,7 @@
 
 ##  Sobre o Projeto
 
-Este é um sistema completo de aplicação de crédito desenvolvido com Java 21 e Spring Boot 3.0.1 O projeto implementa uma arquitetura robusta para gerenciamento de solicitações de crédito, avaliação de score, processamento de aprovações e notificações aos clientes.
+Este é um sistema completo de aplicação de crédito desenvolvido com Java 17 e Spring Boot 3.0.1 O projeto implementa uma arquitetura robusta para gerenciamento de solicitações de crédito, avaliação de score, processamento de aprovações e notificações aos clientes.
 
 Desenvolvi este sistema com foco em escalabilidade, segurança e boas práticas de desenvolvimento, utilizando os recursos mais recentes do Java 17 e seguindo os princípios de Clean Architecture e Domain-Driven Design.
 
